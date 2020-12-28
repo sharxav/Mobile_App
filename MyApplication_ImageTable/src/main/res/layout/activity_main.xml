@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/simpleImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/donut_circle"
+            android:layout_column="1"/>
+
+        <ImageView
+            android:id="@+id/simpleImageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/froyo_circle"
+            android:layout_column="2"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/simpleImageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/book"
+        android:layout_column="1"/>
+
+    <ImageView
+        android:id="@+id/simpleImageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/wings"
+        android:layout_column="2"/>
+</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/simpleImageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/beach"
+            android:layout_column="1"/>
+
+        <ImageView
+            android:id="@+id/simpleImageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/icecream_circle"
+            android:layout_column="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/simpleImageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beach"
+            android:layout_column="1"
+            android:layout_span="2"/>
+
+
+    </TableRow>
+
+
+
+</TableLayout>
